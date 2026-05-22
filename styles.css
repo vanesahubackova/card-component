@@ -1,0 +1,95 @@
+body {
+    background-color:  hsl(233, 47%, 7%);
+     font-size: 15px;
+     font-family: 'Inter' , sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100px;
+}
+
+.kontejner{
+    max-width:350px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: hsl(244, 37%, 16%);
+}
+
+
+.obrazek{
+    width: 100%;
+    display: block;
+}
+   
+.image-box{
+    position: relative;
+    display: inline-block;
+}
+
+.image-box img{
+    display: block;
+    width: 100%;
+}
+
+.image-box::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(170, 0, 255, 0.45);
+}
+
+.text{
+    padding: 2rem;
+    text-align: center;
+}
+
+.celek{
+    display: flex;
+    justify-content: center;
+}
+
+.cisla{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family:'Inter' , sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.highlight{
+    color: hsl(277, 64%, 61%);
+}
+
+.hájedna{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Inter' , sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+}
+
+h2{
+    font-family: 'Lexend Deca', sans-serif ;
+    color: hsl(0, 0%, 100%);
+    align-items: center;
+    display: flex;
+}
+
+.psani{
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:1440px){
+
+}
